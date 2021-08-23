@@ -1,0 +1,13 @@
+@import "../../Variables.module.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.main {
+    nav {
+      width: 20%;
+      height: 100%;
+      position: fixed;
+    }
+    main {
+      margin-left: 20%;
+    }
+  }

@@ -1,0 +1,51 @@
+@import "../../Variables.module.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.nav {
+    border: 2px solid $prm-color;
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    background-color: $sec-color;
+    padding: 10px;
+
+    input {
+      width: 100%;
+      max-width: 230px;
+      font-size: 18px;
+      margin-top: 20px;
+      border: solid 2px $prm-color;
+      border-radius: 4px;
+      font: $prm-font;
+    }
+
+    .checkbox1, .checkbox2, .checkbox3 {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+    }
+
+    .filterContainer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+  
+    .label {
+      padding-left: 15px;
+      text-indent: -15px;
+      white-space: nowrap;
+
+      font: $prm-font;
+    }
+    
+    .checkbox {
+      width: 15px;
+      height: 15px;
+      padding: 0;
+      margin: 0;
+
+    }
+  }
+}
