@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className={styles.title}>
-        <p>Brewdog Punk API</p>
+        <h2>Brewdog Punk API</h2>
       </div>
       <Main />
   </>

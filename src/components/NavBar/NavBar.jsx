@@ -7,7 +7,7 @@ const NavBar = ({ searchTerm, updateSeachTerm, placeHolder }) => {
     <div className={styles.nav}>
       <input type="text" value={searchTerm} onChange={updateSeachTerm} placeholder={placeHolder} />
         <div className={styles.filterContainer}>
-              <div className={styles.checkbox1}>
+              {/* <div className={styles.checkbox1}>
               <label className={styles.label} for="ABV">High ABV (6.0% +)</label>
               <input className={styles.checkbox} type="checkbox" id="ABV"/>
               </div>
@@ -18,7 +18,7 @@ const NavBar = ({ searchTerm, updateSeachTerm, placeHolder }) => {
               <div className={styles.checkbox3}>
               <label className={styles.label} for="Classic">Classic Range</label>
               <input className={styles.checkbox} type="checkbox" id="Acidic"/>
-              </div>
+              </div> */}
         </div>
     </div>
   );
