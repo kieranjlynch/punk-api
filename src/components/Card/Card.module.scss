@@ -1,0 +1,38 @@
+@import "../../Variables.module.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.card {
+    border: 2px solid $prm-color;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    background-color: $sec-color;
+    margin-bottom: 20px;
+  
+    img {
+      height: 250px;
+      display: block;
+      margin: auto;
+    }
+  
+    p {
+      margin: 10px 0;
+      color: #141414;
+      font: $prm-font;
+    }
+  
+    .heading {
+      text-align: center;
+      font-size: 20px;
+      text-decoration: underline;
+      font-weight: bold;
+      color: #141414;
+      font: $prm-font;
+    }
+  
+    .abv {
+      color: #141414;
+      text-decoration: underline;
+      font: $prm-font;
+    }
+  }
