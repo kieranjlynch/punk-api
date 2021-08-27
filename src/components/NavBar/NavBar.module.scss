@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .nav {
-    border: 2px solid rgb(29, 144, 190);
     width: 100%;
-    height: 4%;
+    height: 8vh;
     background-color: #938d8d;
-    padding: 10px;
 
     input {
       width: 70%;
@@ -14,5 +12,7 @@
       border: solid 2px rgb(29, 144, 190);
       border-radius: 4px;
       font: 'Roboto', sans-serif;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
     }
   }
